@@ -100,9 +100,19 @@ header {
 .subtitulo {
     width:100%;
     text-align: center;
-    margin: 200px 30px 50px 30px;
+    margin: 150px 30px 50px 30px;
     font-weight: 500;
 }
+
+#menus .subtitulo {
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+    font-weight: 500;
+    color: black
+}
+
+
 
 .text-justify {
     text-align: justify;
@@ -122,3 +132,26 @@ header {
     width: 100%;
 
 }
+
+#drinks {
+    width: 70%;
+    height: auto;
+    border-radius: 50px;
+
+}
+
+#food {
+    width: 70%;
+    height: auto;
+    border-radius: 50px;
+    ;
+
+}
+
+#menus .btn-circle{
+   background-color: #fff;
+   border:1px solid #fff; 
+   color: #000;
+   margin-top: -100px;
+}
+
