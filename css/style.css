@@ -134,7 +134,7 @@ header {
 }
 
 #drinks {
-    width: 70%;
+    width: 50%;
     height: auto;
     border-radius: 50px;
 
@@ -148,10 +148,43 @@ header {
 
 }
 
+#hand-logo {
+
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
 #menus .btn-circle{
    background-color: #fff;
    border:1px solid #fff; 
    color: #000;
    margin-top: -100px;
 }
+
+#contact-info {
+
+    margin-top: 20px;
+}
+
+#events {
+    margin-top: 20px;
+}
+
+#social-networks {
+    background-color: black;   
+    background-size: 100%;     
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+     justify-content: space-evenly;
+    list-style-type: none;
+        }
+    
+#social-networks i {
+            font-size: 160%;
+            padding: 5%;
+            color: #fff;
+        }
+
 
