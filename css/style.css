@@ -3,10 +3,8 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: top center;
-    min-height: 720px;
+    min-height: 520px;
     min-width: 100%;
-
-
 }
 
 
@@ -67,7 +65,7 @@ header {
 
 }
 
-#content_home img  {
+#content_home img {
     width: 90%;
 
 }
@@ -84,7 +82,7 @@ header {
 #parrafo_1 {
     color: #fff;
     text-align: right;
-    font-size: 22px;  
+    font-size: 22px;
     font-weight: 700;
     padding-right: 100px;
     padding-top: 10px;
@@ -100,9 +98,9 @@ header {
 }
 
 .subtitulo {
-    width:100%;
+    width: 100%;
     text-align: center;
-    margin: 180px 30px 50px 30px;
+    margin: 50px 30px 50px 30px;
     font-weight: 500;
 }
 
@@ -113,8 +111,6 @@ header {
     font-weight: 500;
     color: black
 }
-
-
 
 .text-justify {
     text-align: justify;
@@ -129,14 +125,20 @@ header {
 }
 
 #map {
-
+   
     min-height: 250px;
     width: 100%;
 
 }
 
+footer {
+
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
 #drinks {
-    width: 50%;
+    width: 70%;
     height: auto;
     border-radius: 50px;
 
@@ -157,11 +159,11 @@ header {
     border-radius: 50%;
 }
 
-#menus .btn-circle{
-   background-color: #fff;
-   border:1px solid #fff; 
-   color: #000;
-   margin-top: -100px;
+#menus .btn-circle {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    margin-top: -100px;
 }
 
 #contact-info {
@@ -171,21 +173,58 @@ header {
 
 #events {
     margin-top: 20px;
+    text-align: right;
 }
 
 #social-networks {
-    background-color: black;   
-    background-size: 100%;     
+    background-color: black;
+    background-size: 100%;
     text-align: center;
     padding: 20px 0;
     display: flex;
-     justify-content: space-evenly;
+    justify-content: space-evenly;
     list-style-type: none;
-        }
-    
-#social-networks i {
-            font-size: 160%;
-            padding: 5%;
-            color: #fff;
-        }
+}
 
+
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #fff;
+}
+
+
+#gallery {
+   
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+}
+
+#gallery .col-sm-4{
+padding: 0px;
+}
+#gallery .col-sm-8 {
+    padding: 0px;
+}
+#gallery img{
+width:100%;
+}
+
+#gallery .col-sm-12 {
+    padding: 0px;
+}
+
+#gallery img:hover {
+transform: scale(1.2);
+
+}
+#gallery h3 {
+
+    margin: 0px 0px 40px 0px;
+}
+
+footer .container {
+    padding-bottom: 40px;
+}
