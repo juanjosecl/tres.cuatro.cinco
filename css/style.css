@@ -125,7 +125,7 @@ header {
 }
 
 #map {
-   
+
     min-height: 250px;
     width: 100%;
 
@@ -133,8 +133,9 @@ header {
 
 footer {
 
-    margin-left: -15px;
-    margin-right: -15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: -20px;
 }
 
 #drinks {
@@ -166,9 +167,10 @@ footer {
     margin-top: -100px;
 }
 
-#contact-info {
+#contact-us {
 
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 #events {
@@ -177,7 +179,9 @@ footer {
 }
 
 #social-networks {
+    width: 250px;
     background-color: black;
+    margin: 0px auto;
     background-size: 100%;
     text-align: center;
     padding: 20px 0;
@@ -186,6 +190,9 @@ footer {
     list-style-type: none;
 }
 
+#conter-social-networks {
+    background-color: #000;
+}
 
 
 #social-networks i {
@@ -196,20 +203,22 @@ footer {
 
 
 #gallery {
-   
+
     margin-top: 100px;
     margin-bottom: 40px;
 
 }
 
-#gallery .col-sm-4{
-padding: 0px;
+#gallery .col-sm-4 {
+    padding: 0px;
 }
+
 #gallery .col-sm-8 {
     padding: 0px;
 }
-#gallery img{
-width:100%;
+
+#gallery img {
+    width: 100%;
 }
 
 #gallery .col-sm-12 {
@@ -217,12 +226,39 @@ width:100%;
 }
 
 #gallery img:hover {
-transform: scale(1.2);
+    transform: scale(1.2);
 
 }
+
 #gallery h3 {
 
     margin: 0px 0px 40px 0px;
+}
+
+form .btn {
+   background-color: #000;
+   color: #fff;
+   margin: 15px;
+   position: relative;
+   width: 150px;  
+   
+}
+
+form .btn:hover  {
+    background-color: grey;
+    color:#000;
+    margin: 15px;
+    position: relative;
+    width: 150px;
+
+}
+
+#event-form label {
+   font-weight: 700;
+}
+
+#event-expl {
+    padding-top: 100px;
 }
 
 footer .container {

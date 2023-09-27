@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Meta tags for search engines-->
     <meta name="description"
-        content="">
+        content="steakhouse, beef in bogota, angus beef in colombia, regenerative food, restaurants in zona g.">
     <meta name="keywords" content="restaurant, steakhouse, food, beef, fine cuisine, grill.">
     <!-- Title -->
     <title>TRES CUATRO CINCO STEAKHOUSE</title>
@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
+
     <main>
     <div id="home" class="container">
       <div class="row">
@@ -44,6 +45,11 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="gallery.html">GALLERY</a>
+                    </li>    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#event">EVENTS</a>
+                    </li>
+                        
                     <li class="nav-item">
                       <a class="nav-link" href="#contact-us">CONTACT</a>
                     
@@ -151,37 +157,69 @@
 
 </section>
 
-
-
-<footer id="contact-us">
- <div class="container">
+<div class="container" id="event">
     <div class="row">
+        <div class="col-sm-12 text-center">
+             <h2 class="subtitulo"><strong>EVENTS</strong></h2> 
+        </div>
+        <div class="col-sm-2">
+
+        </div>
+        <div class="col-sm-4" id="event-form">
+        <form action="https://formdump.codeinstitute.net/" method="post">
+        <label for="name">NAME</label>
+        <input type="text" class="form-control" name="name" required="true">
+        <label for="last-name"> LAST NAME </label>
+        <input type="text" class="form-control" name="last-name" required="true">
+        <label for="phone-number"> PHONE NUMBER </label>
+        <input type="text" class="form-control" name="phone-number" required="true">
+        <label for="email"> EMAIL </label>
+        <input type="email" class="form-control" name="email" required="true">
+        <label for="event-type"> EVENT TYPE </label>
+        <textarea name="event-type" class="form-control" required="true"></textarea>
+        <center>
+        <button type="submit" class="btn"> SEND </button>
+        </center>
+
+        </form>
+        </div>
+        <div class="col-sm-4"> 
+        <div class="col-sm-12 text-center" id="event-expl">
+            <h3>If you are interested in any type of event, please fill out the form and we will contact you!</h3>
+        </div>
+
+            
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<div class="container" id="contact-us">
+    <div class="row">
+        <div class="col-sm-2">
+
+        </div>
         <div class="col-sm-4" id="contact-info">
-             <h3> <strong>CONTACT US</strong> </h3>
-             <hr>
-             <h5><i class="fa-solid fa-envelope"></i> trescuatrocincobta@gmail.com</h5>
-             <h5> <i class="fa-solid fa-phone"></i> (+57) 320-257-3513</h5>
-             <h5><i class="fa-solid fa-location-dot"></i> Calle 69A # 5-81. Bogota, Colombia </h5>
+            <h3> <strong>CONTACT US</strong> </h3>
+            <hr>
+            <h5><i class="fa-solid fa-envelope"></i> trescuatrocincobta@gmail.com</h5>
+            <h5> <i class="fa-solid fa-phone"></i> (+57) 320-257-3513</h5>
+            <h5><i class="fa-solid fa-location-dot"></i> Calle 69A # 5-81. Bogota, Colombia </h5>
 
         </div>
         <div class="col-sm-4">
             <center>
-            <img id="hand-logo" src="images/hand_logo_red.png" alt="a logo with a hand on fire">
+                <img id="hand-logo" src="images/hand_logo_red.png" alt="a logo with a hand on fire">
             </center>
-    </div>
-        <div class="col-sm-4" id="events">
-            <h3>  <strong>EVENTS</strong> </h3>
-            <hr>
-            <h5> For any type of events, press this button, 
-                fill out the form and we will get in touch! </h5>
+        </div>
 
-        </div> 
-        <section>
-  
-        
-        
     </div>
- </div>
+
+</div>
+
+<footer>
+ 
 
 <div class="row">
   <iframe id="map"
@@ -189,11 +227,11 @@
         style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
- <section>
+ <section id="conter-social-networks">
     
         <ul id="social-networks">
             <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                <a href="https://www.facebook.com/trescuatrocincoBta/" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)">
                     <i class="fa-brands fa-facebook"></i></a>
             </li>
@@ -208,7 +246,7 @@
                     <i class="fa-brands fa-youtube-square"></i></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                <a href="https://www.instagram.com/trescuatrocincobta/" target="_blank" rel="noopener"
                     aria-label="Visit our Instagram page (opens in a new tab)">
                     <i class="fa-brands fa-instagram"></i></a>
             </li>
