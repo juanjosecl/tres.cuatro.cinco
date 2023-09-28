@@ -58,7 +58,7 @@ All the images used for the website are images taken directly in the restaurant.
 
 #### Navigation bar
 
- the navigation bar ensures effortless browsing. The choice of fonts and colors provide good readability and visual comfort. On larger screens, our navigation bar boasts the restaurant's logo on the left, exuding our brand identity, while neatly organized links to various sections of the page reside on the right, granting direct access to your desired content. 
+ the navigation bar ensures effortless browsing. The choice of fonts and colors provide good readability and visual comfort. On larger screens, our navigation bar boasts the restaurant's logo on the left, exuding our brand identity, while neatly organized links to various sections of the page reside on the right, granting direct access to your desired content.
 
 ![navigation bar](assets/readme_images/navbar_fullscreen.png)
 
@@ -119,6 +119,7 @@ The subsequent section consists solely of a series of pictures showcasing the co
 #### Contact Page
 
 Lastly, the contact page features a form on the right-hand side that allows users to provide the following information:
+
 + First Name
 + Last Name
 + Email
@@ -182,13 +183,15 @@ Additionally, it is worth noting that the website encountered an unfixed bug, wh
 
 ### Programming langauges used
 
-- HTML5
++ HTML5
+
 + CSS
 + JavaScript
 
 ### Frameworks, Libraries & Programs used
 
-- Google Fonts - for the font families: Roboto and Lato. San-serif was used as a default font.
++ Google Fonts - for the font families: Roboto and Lato. San-serif was used as a default font.
+
 + Font Awesome - to add icons for the home services section, about us values section and the social media links in the footer.
 + GitPod/CodeAnywhere - to creat my html files & styling sheet before pushing the project to Github.
 + GitHub - to store my repository for submission.
@@ -225,13 +228,16 @@ The standout feature of the project is the implementation of the "hamburger" men
 + [Tahmid Ahmed youtube tutorial](https://www.youtube.com/watch?v=VRrEquQfh88)
 
 Furthermore, I drew inspiration for form styling and interaction from the following source:
+
 + [CodingLab](https://www.youtube.com/watch?v=okbByPWS1Xc)
 
 ### Media
 
 The hero image was the only image taken from a free stock page:
+
 + [Road avenue with adjacent trees from Pixabay](https://pixabay.com/photos/asphalt-street-trees-avenue-2178703/)
 
 The rest of the picture where provided directly from the existing company in Colombia. The contact details are the follwoing:
+
 + Eduardo Velasquez
 + eaduardoantoniovelasquezv@gmail.com
