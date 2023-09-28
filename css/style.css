@@ -371,7 +371,7 @@ footer .container {
     }
 }
 
-@media (max-width: 1368px) {
+@media (max-width: 1600px) {
     #home {
         background: url(../images/banner/banner_1.jpg);
         height: 720px;
@@ -409,7 +409,7 @@ footer .container {
     #content_home img {
         width: 80%;
         display: block;
-        margin-top: 35%;
+        margin-top: 25%;
     }
 
 }
@@ -452,7 +452,7 @@ footer .container {
     #content_home img {
         width: 80%;
         display: block;
-        margin-top: 35%;
+        margin-top: 25%;
     }
 
 }
