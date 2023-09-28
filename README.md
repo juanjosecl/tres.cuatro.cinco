@@ -70,35 +70,21 @@ For smaller screens, i have maintained this user-friendly approach by placing th
 
 On the homepage, I decided to keep it simple and created a banner. This banner displays a picture of one of our famous dishes, which is the hamburger. On the right side, you'll find the restaurant's logo. At the top of the image, there is a subtitle with the name of the restaurant and a brief explanation.
 
-![Home page about us](assets/readme_images/home_aboutus_readme_image.png)
-
-Upon scrolling, you will encounter the three primary types of services offered by the company. Notably, a hovering feature is implemented, allowing users to hover over each service to gain insight into its nature and encouraging engagement by clicking to explore the main services page.
-
-![Home page services](assets/readme_images/home_service_readme_image.png)
-
-The final section of the home page features an introductory gallery with three main pictures, each indicating the city where the corresponding project took place. These interactive pictures serve as clickable links, redirecting users to the main gallery page where they can explore the complete collection of project galleries.
-
-![Home page gallery](assets/readme_images/home_gallery_readme_image.png)
-
-The footer element for larger screens provides a short version of the main menu in the left corner, links to social media in the center and the company's logo on the right corner to go back to the index page.
-
-![Footer](assets/readme_images/footer_readme_image.png)
-
-Regarding the responsive design of the footer, the additional menu is hidden for screen widths of 979px or less. Furthermore, for screen widths of 650px or less, the company logo is also not displayed. This leaves only the social media links at the center of the footer, providing a streamlined layout for smartphones and smaller devices.
+![Home page about us](assets/readme_images/banner_home.png)
 
 #### About Us Page
 
-This page serves as a comprehensive overview of the company, highlighting its origins, headquarters location, and the range of services it offers. It provides essential details about the company's birthplace, headquarters, and an overview of the services available.
+This page offers users a glimpse into the essence of TRES CUATRO CINCO. It begins with a "HISTORY" section, delving into the restaurant's origins and our gastronomic philosophy, providing a comprehensive understanding of our journey and culinary approach.
 
-![About us information](assets/readme_images/aboutus_information_readme_image.png)
+![About us information](assets/readme_images/about_us_history.jpg)
 
-Within this page, you will find a mission and vision statement that clearly articulates the purpose and guiding principles of the company.
+Right Below the "HISTORY" section, you will encounter a circular image of the restaurant´s main salon. In my opinion it gives style to the site. By mixing pictures and text we are giving a better user experience.
 
-![Mission and vision statements](assets/readme_images/mis_vis_readme_image.png)
+![Mission and vision statements](assets/readme_images/circle_about_us.jpg)
 
-The "About Us" section also includes a dedicated values section, showcasing the company's core values. These values are defined and emphasized through the inclusion of logos, highlighting their significance and importance to the company's ethos.
+The "About Us" section also includes a dedicated working hours section. It is imperative for users visiting the webpage to know when they can enjoy lunch or dinner. This information is clearly presented in a list right below the salon image.
 
-![Company values](assets/readme_images/values_readme_image.png)
+![Company values](assets/readme_images/working_hours_aboutus.jpg)
 
 #### Services Page
 
