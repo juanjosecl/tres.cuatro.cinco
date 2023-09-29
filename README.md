@@ -66,99 +66,84 @@ For smaller screens, i have maintained this user-friendly approach by placing th
 
 ![Hamburger menu nav bar](assets/readme_images/navbar_smaller_screen.png)
 
-#### Home Page
+#### Home section
 
 On the homepage, I decided to keep it simple and created a banner. This banner displays a picture of one of our famous dishes, which is the hamburger. On the right side, you'll find the restaurant's logo. At the top of the image, there is a subtitle with the name of the restaurant and a brief explanation.
 
-![Home page about us](assets/readme_images/banner_home.png)
+![Home page](assets/readme_images/banner_home.png)
 
-#### About Us Page
+#### About Us section
 
 This page offers users a glimpse into the essence of TRES CUATRO CINCO. It begins with a "HISTORY" section, delving into the restaurant's origins and our gastronomic philosophy, providing a comprehensive understanding of our journey and culinary approach.
 
-![About us information](assets/readme_images/about_us_history.jpg)
+![History](assets/readme_images/about_us_history.jpg)
 
 Right Below the "HISTORY" section, you will encounter a circular image of the restaurant´s main salon. In my opinion it gives style to the site. By mixing pictures and text we are giving a better user experience.
 
-![Mission and vision statements](assets/readme_images/circle_about_us.jpg)
+![Picture of the restaurant´s salon](assets/readme_images/circle_about_us.jpg)
 
 The "About Us" section also includes a dedicated working hours section. It is imperative for users visiting the webpage to know when they can enjoy lunch or dinner. This information is clearly presented in a list right below the salon image.
 
-![Company values](assets/readme_images/working_hours_aboutus.jpg)
+![Restaurant working hours ](assets/readme_images/working_hours_aboutus.jpg)
 
-#### Services Page
+#### Menu Section
 
-This page provides detailed information about the company's services, with each section featuring a title, highlighted text, and a few paragraphs of content. Users can easily request a quote or seek additional information about the company or a specific service by clicking the designated button within each section.
+This section primarily serves to offer users the option of checking our menu online. It features two pictures—one showcasing our selection of drinks, and the other highlighting a delectable piece of beef. Within each picture, you'll find a button that directs you to the respective menu, where you can explore our diverse range of offerings.
 
-![Services page](assets/readme_images/services_readme_image.png)
+![ Menu Page ](assets/readme_images/menu_readme.jpg)
 
-#### Gallery Page
+#### Events Section
 
-The purpose of this page is to showcase the company's portfolio of work. It provides a brief description of the project locations. Given the extensive number of projects undertaken by the company, there is a link to the contact page for obtaining specific information about individual projects.
+This section has been exclusively designed for clients interested in hosting events at the restaurant. On the left side of this section, you'll find a form where clients are requested to provide the following information:
 
-![Gallery description](assets/readme_images/gallery_description_readme_image.png)
-
-The subsequent section consists solely of a series of pictures showcasing the company's activities and projects.
-
-![Gallery](assets/readme_images/gallery_readme_image.png)
-
-#### Contact Page
-
-Lastly, the contact page features a form on the right-hand side that allows users to provide the following information:
 + First Name
 + Last Name
 + Email
 + Phone Number
-+ Project location
-+ Interested service (as a dropdown)
-+ Information requested about a quote or the company.
++ Event Type
 
-![Form](assets/readme_images/form_readme_image.png)
+This information enables the restaurant to reach out and facilitate various types of business bookings. On the right side of the section, you'll also find an additional restaurant logo, adding an elegant touch to this part of the website.
 
-Furthermore, this section incorporates the contact information of the company, facilitating direct communication between users and the company for any inquiries or communication requirements.
+![events section ](assets/readme_images/events_readme.jpg)
 
-![Contact details](assets/readme_images/contact_info_readme_image.png)
+#### Contact us section
 
-#### Form Sent page
+On the contact us section, you will find important information about the restaurant.
 
-This page follows the same layout as the contact page, but it serves solely to provide feedback to the user, acknowledging the receipt of the form submission.
++ Email
++ phone number
++ address
 
-![Landing page message](assets/readme_images/form_feedback_readme_image.png)
+Moreover, in order for the section to be more elegant, I included another logo of the restaurant.
+
+![Contact us section](assets/readme_images/contact_us_readme.jpg)
+
+#### Footer section
+
+In the footer section, I've aimed to provide clients with crucial information. Firstly, you'll discover the restaurant's location on Google Maps, making it easier for people to locate TRES CUATRO CINCO. Additionally, there are links to all of our social media platforms, where you can explore various types of content.
+
+![Footer Section](assets/readme_images/footer_readme.jpg)
 
 ### Future features
 
-As previously mentioned in this document, this project represents a prototype website for an actual company based in Colombia. As a result, there are specific features and enhancements that are planned to be implemented by the company over the next six months.
+As previously mentioned in this document, this project represents a prototype website for an actual restaurant based in Colombia. As a result, there are a few implementations that can be made in order for the site to be more user friendly
 
 + Enhancements to the dropdown navigation menu to align with best practices and improve user experience.
-+ Transformation of the gallery page into a dedicated projects page, featuring individual pages for each project.
-+ Introduction of a downloads page, enabling users to access and download technical information about the company, road standards, and other relevant documentation.
-+ Addition of a WhatsApp link, providing users with quick access to send inquiries directly to the company.
-
-Furthermore, it is important to note that the previous name of the company was Seprocivil Colombia SAS, which is reflected in the repository name and title of the HTML pages. However, prior to the official launch of the website, these details will be updated to reflect the current name of the company.
++ include in the gallery section videos that show the process of food preparation.
++ Create an actual data base where I can interact with clients to grow business events.
 
 ## Testing
 
-The positioning of elements has been the most challenging aspect of this project. To address this, the use of flexbox has been crucial in positioning elements across all pages of the website. In order to ensure responsiveness without distorting the images, I employed viewport units to maintain their proportions effectively. This approach helped overcome the issues encountered and maintain a visually appealing and responsive design throughout the website.
+The most challenging aspect of this assignment, for me, was determining the positioning of elements. Typically, I use flexbox for such tasks, but in this project, I discovered the benefits of Bootstrap. Bootstrap enabled me to achieve superior element positioning on the webpage, particularly through the use of classes like 'container,' 'row,' and 'col-sm-#.' These classes significantly improved the page layout. While testing for proper positioning was initially difficult, I eventually succeeded
 
-To achieve the gallery display, I utilized flexbox and resized the images accordingly. All the images were standardized to a size of 350x350px, ensuring a consistent and visually appealing image display. This approach allowed for a cohesive and uniform presentation of the gallery images.
-
-Another challenge I encountered was implementing an industry-standard "hamburger" menu for smaller viewports. After conducting extensive research on JavaScript dropdown menus, I arrived at the following solution:
-
-![JavaScript code](assets/readme_images/js_script_readme_image.png)
-
-By delving into the Code Institute topics of variables in JavaScript and Python and utilizing the document.querySelector method, I defined specific classes as JavaScript variables to introduce dynamic functionality.
-
-Next, by combining these variables with CSS, I implemented a toggle system that allows for the opening and closing of the menu. This combination of JavaScript and CSS enables seamless interaction with the menu, providing a smooth user experience.
-
-The project faced challenges in positioning form input items effectively. To address this, I grouped each label with its corresponding input element in individual div containers and utilized flexbox to arrange them. The form layout was further enhanced by implementing a max-width property, resulting in two adaptable layouts based on available space. This approach achieved a visually pleasing and responsive form design, elevating the overall user experience.
+Regarding browser compatibility, the webpage functions seamlessly on Edge, Mozilla, and Chrome. Furthermore, I used dev tools to ensure the webpage's responsiveness on desktops, cellphones, and tablets. In addition, the form in the events area is fully functional, requiring correct input for each field. Lastly, the navbar effectively navigates users to their intended sections of the page.
 
 ### Validatior testing
 
-+ All html files pass through the [W3C validator](https://jigsaw.w3.org/css-validator/#validate_by_input) with no issues. ![html validator result](assets/readme_images/html_validator_readme_image.png)
-+ All CSS files pass through the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) with no issues. ![CSS validator result](assets/readme_images/css_validator_readme_image.png)
-+ Page has an excellent Accessibility rating in Lighthouse. ![Lighthouse report](assets/readme_images/lighthouse_readme_image.png)
-+ Tested the site opens in Chrome, Safari and Mozilla.
-+ No broken links
++ the Index and Gallery, passed through the W3C validator
+[w3c validator](assets/readme_images/w3c_validator.jpg)
++ No errors on the CSS validator (gigsaw)
+
 
 ### Unfixed bugs
 
