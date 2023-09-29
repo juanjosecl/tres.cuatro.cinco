@@ -124,6 +124,14 @@ In the footer section, I've aimed to provide clients with crucial information. F
 
 ![Footer Section](assets/readme_images/footer_readme.jpg)
 
+#### Gallery Page
+
+The gallery page prominently displays various images that highlight our work within the restaurant. I have intentionally arranged these images to create a collage-like appearance rather than a rigid organizational structure. Furthermore, when you hover over an image, a special effect allows for a clearer view.
+
+Directly below the image section, you will discover the "Contact Us" section and the footer, providing the client with an opportunity to learn more about our services and have immediate access to our contact information and location.
+
+![>Gallery Page](assets/readme_images/gallery_readme.jpg)
+
 ### Future features
 
 As previously mentioned in this document, this project represents a prototype website for an actual restaurant based in Colombia. As a result, there are a few implementations that can be made in order for the site to be more user friendly
@@ -166,12 +174,11 @@ I did not find any bugs during the testing.
 
 ### Frameworks, Libraries & Programs used
 
-- Google Fonts - for the font families: Roboto and Lato. San-serif was used as a default font.
-+ Font Awesome - to add icons for the home services section, about us values section and the social media links in the footer.
++ Font Awesome - to add icons for the home section, about us values section and the social media links in the footer.
 + GitPod/CodeAnywhere - to creat my html files & styling sheet before pushing the project to Github.
 + GitHub - to store my repository for submission.
 + Am I Responsive? - to ensure the project looked good across all devices.
-+ bootstrap
++ bootstrap - for CSS library
 
 ### Deployment
 
@@ -179,38 +186,35 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 + In the GitHub repository, navigate to the Settings tab
 + On the left hand side menu, navigate to the pages tab user code and automation.
-+ In build and deplyment, under branch, select the main Branch
++ In build and deployment, under branch, select the main Branch
 + Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-+ The live link can be found [here - Infrastructura y Senalizacion](https://juanovt10.github.io/seprocivilCO/).
++ The live link can be found [here - TRES CUATRO CINCO STEAKHOUSE](https://juanjosecl.github.io/tres.cuatro.cinco.).
 
 ## Credits
 
-### Design
-
-The company provided all the information regarding the content information. The design was inspired by various type of engineering websites of multinational companies, including:
-
-+ [Arup](https://www.arup.com/)
-+ [AECOM](https://aecom.com/)
-+ [eyrise B.V.](https://www.eyrise.com/)
-+ [Henstaff Construction](https://www.henstaff.co.uk/)
-
 ### Code
 
-From the very beginning, my mentor Martina Terlevic advised me to utilize flexbox for element positioning. However, as I encountered challenges in this area, I sought further guidance. I found the [flexfrog tutorial](https://flexboxfroggy.com/) and [flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), which proved invaluable in helping me understand the workings of flexbox, its various applications, and any limitations it may have. These resources provided me with the necessary knowledge and skills to overcome my struggles and effectively utilize flexbox for optimal element positioning.
+as explained in the testing area, the most difficult part for me was the flexbox usage. That´s when i was able to discover the bootstrap library in specific this classes: container, row, col-sm-#. I was able to understand how it works studying the bootstrap main page specifically here: 
 
-The standout feature of the project is the implementation of the "hamburger" menu. This menu type is well-suited for smaller devices due to best practices and a large navigation bar. To accomplish this, I referred to the full stack development lessons on [Code Institude](https://codeinstitute.net/global/) to grasp the principles of variables in JavaScript and learn how to transform HTML ids and classes into JavaScript variables. The resources utilized for this purpose were:
+<https://getbootstrap.com/docs/4.0/layout/grid/>
 
-+ [W3C schools](https://www.w3schools.com/jsref/met_document_queryselector.asp)
-+ [Tahmid Ahmed youtube tutorial](https://www.youtube.com/watch?v=VRrEquQfh88)
+this allowed me to organize media and text within each div in different ways that I was not able to do with just flex-box before.
 
-Furthermore, I drew inspiration for form styling and interaction from the following source:
-+ [CodingLab](https://www.youtube.com/watch?v=okbByPWS1Xc)
+In addition, bootstrap also helped me with the navbar and the hamburguer menu. I think it allowed me to organize faster each part of the page and helped me be more efficient with my time which is what coders should be aiming to do when they start workig. For the navbar codes, again studied the bootstrap main page dedicated to navbar. you can find it here.
+
+<https://getbootstrap.com/docs/4.0/components/navbar/>
+
+Lastly, for the social media section, I drew inspiration from the code presented in the Running Walkthrough project, available in the Common Curriculum. You can access this resource through the following link:
+
+<https://learn.codeinstitute.net/dashboard>
+
 
 ### Media
 
-The hero image was the only image taken from a free stock page:
-+ [Road avenue with adjacent trees from Pixabay](https://pixabay.com/photos/asphalt-street-trees-avenue-2178703/)
+All the photos featured in this project were taken directly within the restaurant premises. No external images were sourced or downloaded for this endeavor.
 
-The rest of the picture where provided directly from the existing company in Colombia. The contact details are the follwoing:
-+ Eduardo Velasquez
-+ eaduardoantoniovelasquezv@gmail.com
+Regarding icons, as previously mentioned, I employed Font Awesome icons, which are prominently visible in the social media section and the "About Us" segment.
+
+Should you require additional information about the images used, please feel free to contact the official restaurant photographer at this email address.
+
++ trescuatrocincobta@gmail.com
