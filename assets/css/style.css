@@ -273,10 +273,10 @@ footer .container {
 
     }
 
-    #content_home img {
+    #content_home > img {
         width: 90%;
         margin-top: 25%;
-        display: ;
+        display:block;
 
     }
 

@@ -141,13 +141,20 @@ Regarding browser compatibility, the webpage functions seamlessly on Edge, Mozil
 ### Validatior testing
 
 + the Index and Gallery, passed through the W3C validator
-[w3c validator](assets/readme_images/w3c_validator.jpg)
+  
+![W3C validator](assets/readme_images/w3c_validator.jpg) 
+
 + No errors on the CSS validator (gigsaw)
 
+![JIGSAW validator](assets/readme_images/css_validator.jpg)
+
++ Lighthouse check 
+
+![JIGSAW validator](assets/readme_images/lighthouse_check.jpg)
 
 ### Unfixed bugs
 
-Additionally, it is worth noting that the website encountered an unfixed bug, which was unrelated to the code itself but rather caused by the hosting service. This bug prevented the execution of the JavaScript code, resulting in the unavailability of the dropdown menu and Font Awesome logos. The error message indicated was: "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at <https://kit.fontawesome.com/3156a2e938.js>. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing). Status code: 530."
+I did not find any bugs during the testing.
 
 ## Technologies used
 
@@ -164,6 +171,7 @@ Additionally, it is worth noting that the website encountered an unfixed bug, wh
 + GitPod/CodeAnywhere - to creat my html files & styling sheet before pushing the project to Github.
 + GitHub - to store my repository for submission.
 + Am I Responsive? - to ensure the project looked good across all devices.
++ bootstrap
 
 ### Deployment
 
