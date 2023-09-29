@@ -6,7 +6,7 @@ This website serves as a digital gateway, purposefully designed to elevate our r
 
 ![Site view across devices](assets/readme_images/responsive_text_screenshot.png)
 
-The TRES CUATRO CINCO STEAKHOUSE website, can be found here, followingthis link [here](https://juanjosecurreal.github.io/tres-cuatro-cinco/).
+The TRES CUATRO CINCO STEAKHOUSE website, can be found here, followingthis link [here](https://juanjosecl.github.io/tres.cuatro.cinco).
 
 ## Table of Content
 
@@ -188,7 +188,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 + On the left hand side menu, navigate to the pages tab user code and automation.
 + In build and deployment, under branch, select the main Branch
 + Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-+ The live link can be found [here - TRES CUATRO CINCO STEAKHOUSE](https://juanjosecl.github.io/tres.cuatro.cinco.).
++ The live link can be found [here - TRES CUATRO CINCO STEAKHOUSE](https://juanjosecl.github.io/tres.cuatro.cinco).
 
 ## Credits
 
